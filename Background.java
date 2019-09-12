@@ -18,11 +18,11 @@ public class Background extends JPanel
     
     ArrayList<Shape> shapeList = new ArrayList<Shape>();
     
-    int num = 6;
+    int num = 3;
     
-    String shape = "Triangle";
+    String shape = "Square";
     
-    boolean sier = true;
+    boolean sier = false;
     
     /**
      * Constructor for objects of class Background

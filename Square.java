@@ -14,17 +14,14 @@ public class Square extends Shape
     int xPos;   //top left hand corner coords
     int yPos;
     int height;
-    
-    int num; //is this necessary
-    
+    int num;
     boolean sier;
     
     Square[] nineSquare = new Square[9];
-    
     Square[] fourSquare = new Square[4];
     
     /**
-     * Constructor for objects of class Triangle
+     * Constructor for objects of class Square
      */
     public Square(int xp, int yp, int h, int n, boolean s)
     {
@@ -35,9 +32,7 @@ public class Square extends Shape
         xPos = xp;
         yPos = yp;
         height = h;
-        
-        num = n;
-        
+        num = n;        
         sier = s;
     }
 
