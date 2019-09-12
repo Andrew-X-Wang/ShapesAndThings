@@ -21,7 +21,7 @@ public class BackgroundDriver extends JFrame
         }
         if(b.shape.equals("Square"))
         {
-            frame.add(new Square(b.xDim + b.PAD, b.yDim - b.PAD, b.yDim - 2 * b.PAD, b.num));
+            frame.add(new Square(b.xDim + b.PAD, b.yDim - b.PAD, b.yDim - 2 * b.PAD, b.num, b.sier));
         }
         //frame.add(b);
         frame.pack(); // prepares frame for display

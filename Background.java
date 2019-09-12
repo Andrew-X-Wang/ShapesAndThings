@@ -18,9 +18,11 @@ public class Background extends JPanel
     
     ArrayList<Shape> shapeList = new ArrayList<Shape>();
     
-    int num = 5;
+    int num = 6;
     
-    String shape = "Square";
+    String shape = "Triangle";
+    
+    boolean sier = true;
     
     /**
      * Constructor for objects of class Background
@@ -53,7 +55,7 @@ public class Background extends JPanel
         
         if(shape.equals("Square"))
         {
-            shapeList.add(new Square(xDim + PAD, yDim - PAD, yDim - 2 * PAD, num));
+            shapeList.add(new Square(xDim + PAD, yDim - PAD, yDim - 2 * PAD, num, sier));
         }
         
         if(shape.equals("Pentagon"))
